@@ -1,0 +1,234 @@
+/* CSSのリセット（消さないで！！） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  background-color:white;
+  width: 100%;
+}
+h1{
+  color:#4f85a6;
+  font-family: 'M PLUS 1p', sans-serif;
+  padding:0px;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*ここからheader*/
+
+header{
+
+      width:100%;
+      position: absolute;
+      z-index: 10;
+}
+.container {
+  background-color:black;
+  text-align:center;
+
+}
+.logo{
+    width:90px;
+    margin-right:45px;
+}
+.header-list{
+   height:50px;
+   display: block;
+}
+
+.menu {
+ width: 100%;
+ padding: 0;
+}
+
+.menu li {
+ list-style: none;
+  float: left;
+ width: 25%;
+
+}
+
+.menu li a {
+ display: table;
+ font-size: 2vw;
+ background: black;
+ text-decoration: none;
+ text-align: left;
+ vertical-align: middle;
+ color: white;
+ overflow: hidden;
+ transition:all 0.5s ease-out;
+ text-align: center;
+ background-color: black;
+ width:100%;
+ padding-right: 1px;
+ padding-bottom: 8px;
+
+}
+
+.menu > li:first-child a {
+ margin-top: 0;
+}
+
+.menu li a:hover {
+ background: black;
+ transition:all 0.5s ease-out;
+
+}
+
+.menu li ul {
+ margin: 0;
+ padding: 0;
+
+}
+
+.menu li li a {
+ display: block;
+ margin-top: 0;
+ padding: 0 0px;
+ height: 0;
+ background: black;
+ color: white;
+ transition:all 0.5s ease-out;
+
+
+
+}
+.list li{
+  clear: both;
+  width:100%;
+  font-size: 1.7vw;
+}
+.menu > li:hover li a {
+ display: table;
+ padding: 10px;
+
+ height: 1em;
+ transition:all 0.5s ease-out;
+ text-align: center;
+}
+
+.menu > li:hover li a:hover {
+ background: silver;
+ transition:all 0.5s ease-out;
+}
+/*ここからmain*/
+main{
+    background-color: white;
+
+}
+.main-container{
+  position:absolute;
+  z-index: 1;
+  top:140px;
+  width: 100%;
+}
+
+h2{
+  border-bottom:3px solid black;
+  display: inline-block;
+  padding: 0 25px;
+}
+.subhead{
+  border-bottom:3px solid black;
+  font-size:1vw;
+  font-size:30px;
+  padding-bottom:5px;
+  color:black;
+  display: inline-block;
+}
+.news-container{
+
+
+}
+.info{
+
+ padding-top: 10px;
+  height:225px;
+  z-index:1;
+  overflow: scroll;
+   margin-left: 25px;
+  margin-top: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 500px;
+  cursor: url(../../images/logo_black.cur)16 16, text;
+
+}
+.ymd{
+ : url(../../images/logo_skyblue.cur)16 16, text;
+}
+.slider{
+  display:inline;
+}
+.explain{
+  display: inline;
+  padding:20px;
+  padding-left: 50px;
+  font-size: 25px;
+  width: 80%;
+  display: inline-block;
+}
+.explain li{
+  color:black;
+  list-style: circle;
+}
+.explain a{
+  color: black;
+}
+.explain li p{
+  font-size: 17px;
+}
+#form{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.article{
+
+
+}
+/*ここからfooter*/
+footer{
+    background-color:black;
+    height:350px;
+    display: block;
+    width: 100%;
+
+}
+.footer-wrapper{
+  float:right;
+}
+.media{
+  float:right;
+}
+#footer-logo{
+  width:230px;
+  display:block;
+  padding-left:50px;
+
+}
+#instagram{
+  margin:20px;
+  width:70px;
+
+}
+#twitter{
+  margin: 23px;
+  width:70px;
+
+}
+#facebook{
+  margin: 23px;
+  width:70px;
+
+}
