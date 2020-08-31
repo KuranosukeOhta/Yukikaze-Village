@@ -38,7 +38,6 @@ header{
 }
 .logo{
     width:90px;
-    margin-right:45px;
 }
 .header-list{
    height:50px;
@@ -124,7 +123,7 @@ header{
 /*ここからmain*/
 main{
     background-color: white;
-
+　　width: 100%;
 }
 .main-container{
   position:absolute;
@@ -173,29 +172,51 @@ h2{
 .explain{
   display: inline;
   padding:20px;
-  padding-left: 50px;
+
   font-size: 25px;
-  width: 80%;
+  width: 100%;
   display: inline-block;
 }
 .explain li{
   color:black;
-  list-style: circle;
+
 }
 .explain a{
-  color: black;
+  color: white;
+  width: 48%;
+  background-color: black;
+  height: 6vw;
+  font-size: 2vw;
+  text-align: center;
+  margin: 0 10 10 10px;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  border-radius: 20px;
+  padding-top: 2.4vw;
+}
+.explain ul{
+float: left;
+width: 100%;
 }
 .explain li p{
   font-size: 17px;
 }
 #form{
-  padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
+
 }
 .article{
+width: 100%;
 
+}
+.explain li a{
 
+}
+.explain iframe{
+  width: 100%;
 }
 /*ここからfooter*/
 footer{
