@@ -1,3 +1,3 @@
 # Yukikaze-Village
 
-This is the Yukikaze Village.
+This is The Yukikaze Village.
